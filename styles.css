@@ -1,0 +1,59 @@
+:root {
+  /* Primary colors */
+  --primary-color: #ffffff;
+
+  /* Secondary colors */
+  --secondary-color: #000000;
+}
+@font-face {
+  font-family: "LEMONMILK"; /* Font family name */
+  src: url("/assets/fonts/lemon_milk/LEMONMILK-Bold.otf") format("opentype"); /* Path to bold font */
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "LEMONMILK";
+  src: url("//assets/fonts/lemon_milk/LEMONMILK-BoldItalic.otf")
+    format("opentype"); /* Path to italic font */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "LEMONMILK";
+  src: url("/assets/fonts/lemon_milk/LEMONMILK-Regular.otf") format("opentype"); /* Path to regular font */
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "LEMONMILK";
+  src: url("/assets/fonts/lemon_milk/LEMONMILK-Medium.otf") format("opentype"); /* Path to medium font */
+  font-weight: 500; /* Custom font weight for medium */
+}
+
+.header {
+  display: flex;
+  background-color: var(--primary-color);
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+.nav > li > a {
+  color: var(--secondary-color);
+  text-decoration: none;
+
+  font-family: "LEMONMILK", Arial, sans-serif; /* Use LEMONMILK for paragraphs */
+  font-weight: normal; /* Ensure normal font weight for paragraphs */
+}
+
+.logo > h1 {
+  font-family: "LEMONMILK", Arial, sans-serif; /* Use LEMONMILK for headings */
+  font-weight: bold; /* Ensure bold font weight for headings */
+}
+#home {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 2rem 1rem;
+}
