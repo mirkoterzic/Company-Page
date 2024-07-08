@@ -46,9 +46,13 @@
 .nav > li > a {
   color: var(--secondary-color);
   text-decoration: none;
-
+  transition: 0.5s ease-in-out;
   font-family: "LEMONMILK", Arial, sans-serif; /* Use LEMONMILK for paragraphs */
   font-weight: normal; /* Ensure normal font weight for paragraphs */
+}
+.nav > li > a:hover {
+  color: var(--accent-color);
+  font-size: 1.05rem;
 }
 
 .logo > h1 {
