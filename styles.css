@@ -83,3 +83,7 @@
 .hero-image {
   border-radius: 2rem;
 }
+#hero-catch {
+  text-align: center;
+  color: var(--accent-color);
+}
