@@ -87,3 +87,40 @@
   text-align: center;
   color: var(--accent-color);
 }
+.about-me-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.about-me {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.bio h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.bio p {
+  color: #666;
+  line-height: 1.6;
+}
