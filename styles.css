@@ -4,6 +4,9 @@
 
   /* Secondary colors */
   --secondary-color: #000000;
+
+  /* Accent color*/
+  --accent-color: #12ecf0;
 }
 @font-face {
   font-family: "LEMONMILK"; /* Font family name */
@@ -55,5 +58,28 @@
 #home {
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 4rem 5rem 4rem;
+  gap: 3rem;
+}
+.hero-title {
+  font-family: "LEMONMILK", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: var(--primary-color);
+  text-align: center;
+}
+.hero-text > p {
+  font-family: "LEMONMILK", Arial, sans-serif;
+  text-align: justify;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+#company-name {
+  color: var(--accent-color);
+}
+.hero-image {
+  border-radius: 2rem;
 }
