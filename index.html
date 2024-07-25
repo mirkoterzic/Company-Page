@@ -13,133 +13,60 @@
   <title>Sega Automation</title>
   <body>
     <header class="header">
-      <div class="logo"><h1>Sega Automation</h1></div>
+      <div class="logo"><h1>Sega International</h1></div>
       <nav>
         <ul class="nav">
           <li><a href="#home">Home</a></li>
-          <li><a href="#about-me">About me</a></li>
+          <li><a href="#about">About me</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="#testemonials">Testemonials</a></li>
         </ul>
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
       </nav>
     </header>
-    <div id="home">
-      <div class="hero-text">
-        <h1 class="hero-title">
-          Welcome to
-          <span id="company-name">Sega Automation</span>
-        </h1>
-        <p>
-          where viral YouTube success is crafted with precision and passion.
-          From captivating content strategies to seamless production, we
-          specialize in transforming channels into the next big sensation.
-          <br />
-          <br />
-          <span id="hero-catch"
-            >Let's ignite your journey to YouTube stardom together.</span
-          >
-        </p>
+    <div class="hero-section">
+      <video autoplay muted loop id="hero-video">
+        <source src="video.mp4" type="video/mp4" />
+        <source src="video.webm" type="video/webm" />
+        <source src="video.ogv" type="video/ogg" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="overlay">
+        <h1>Sega International</h1>
       </div>
-      <img class="hero-image" src="/assets/images/hero_image.jpg" alt="" />
     </div>
 
-    <div id="about-me" class="about-me-container">
-      <div class="about-me">
+    <div id="about" class="about-container">
+      <div class="about">
         <img src="assets/images/sega.jpg" alt="Sega" class="profile-img" />
         <div class="bio">
-          <h2>About Me</h2>
+          <h2>About Founder</h2>
           <p>
-            I'm Sega, the founder and visionary behind this innovative company.
+            Sergej is the founder and visionary behind this innovative company.
             With a passion for crafting captivating content strategies and
             seamless production, I've dedicated myself to transforming channels
-            into the next big sensation on YouTube. On my personal channel, I've
-            cultivated a community of
-            <span class="highlight">over 225,000 subscribers</span> with
-            <span class="highlight">297 videos</span> that have
-            <span class="highlight">garnered 42,196,006 views</span> since I
-            joined YouTube on December 30, 2015.
+            into the next big sensation on YouTube. On my personal channel.
           </p>
-          <p>
-            At Sega Automation, we specialize in igniting your journey to
-            YouTube stardom by leveraging my expertise and experience in
-            creating viral content. Whether you're looking to amplify your
-            channel's reach or refine your content strategy, let's collaborate
-            and propel your online presence to unprecedented levels of success.
-            Join me at Sega Automation, where we turn aspirations into reality
-            with precision and passion.
-          </p>
+          <div class="stats">
+            <div class="card" id="subscribers-card">
+              <div class="card-number" id="subscribers-number">0</div>
+              <div class="card-label">subscribers</div>
+            </div>
+            with
+            <div class="card" id="videos-card">
+              <div class="card-number" id="videos-number">0</div>
+              <div class="card-label">videos</div>
+            </div>
+            that have
+            <div class="card" id="views-card">
+              <div class="card-number" id="views-number">0</div>
+              <div class="card-label">views</div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="myvideos">My Videos</div>
-      <div class="cards">
-        <a href="https://www.youtube.com/watch?v=3U_0AtoAA_k" target="_blank"
-          ><div class="card">
-            <img
-              class="thumbnail"
-              src="/assets/images/unistio-tatin-auto-thumb.jpg"
-              alt=""
-            />
-            <div class="video-title">
-              Uništio sam Tatin Auto i Iznenadio Ga Novim
-            </div>
-            <div class="video-info">800K views</div>
-          </div></a
-        >
-
-        <a href="https://www.youtube.com/watch?v=PhobBjdb_sg" target="_blank"
-          ><div class="card">
-            <img
-              class="thumbnail"
-              src="/assets/images/govorim-da-subscriberu-thumb.jpeg"
-              alt=""
-            />
-            <div class="video-title">Govorim DA Subscriberu 24 Sata</div>
-            <br />
-            <div class="video-info">117K views</div>
-          </div></a
-        >
-
-        <a href="https://www.youtube.com/watch?v=Z9FYFrSZygo" target="_blank"
-          ><div class="card">
-            <img
-              class="thumbnail"
-              src="/assets/images/sacuvaj-lubenicu-od-pada-thumb.jpeg"
-              alt=""
-            />
-            <div class="video-title">
-              SAČUVAJ LUBENICU DA PREŽIVI PAD! IZAZOV
-            </div>
-            <div class="video-info">583K views</div>
-          </div></a
-        >
-
-        <a href="https://www.youtube.com/watch?v=wx_vPovDZPg" target="_blank"
-          ><div class="card">
-            <img
-              class="thumbnail"
-              src="/assets/images/proveo-sam-48sati-u-zatvoru-thumb.jpeg"
-              alt=""
-            />
-            <div class="video-title">Proveo Sam 48 Sati u Zatvoru</div>
-            <br />
-            <div class="video-info">130K views</div>
-          </div></a
-        >
-
-        <a href="https://www.youtube.com/watch?v=18HYOX2vfzU" target="_blank"
-          ><div class="card">
-            <img
-              class="thumbnail"
-              src="/assets/images/zadnji-da-prestani-kopati-thumb.jpeg"
-              alt=""
-            />
-            <div class="video-title">
-              Zadnji Da Prestane Kopati Osvaja 10,000$
-            </div>
-            <div class="video-info">602K views</div>
-          </div></a
-        >
       </div>
     </div>
     <div id="services">
