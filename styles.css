@@ -258,7 +258,6 @@
   }
 
   .nav li a:hover {
-    background-color: #c05555;
     color: var(--accent-color);
   }
 

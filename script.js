@@ -67,13 +67,29 @@ document.addEventListener("DOMContentLoaded", function () {
   const icon = hamburger.querySelector("i");
   const navLinks = navMenu.querySelectorAll("a");
 
+  // Toggle menu and icon change for hamburger menu
   hamburger.addEventListener("click", function () {
     navMenu.classList.toggle("show");
     icon.classList.toggle("fa-bars");
     icon.classList.toggle("fa-times");
   });
+
+  // Smooth scrolling for navigation links
   navLinks.forEach((link) => {
-    link.addEventListener("click", function () {
+    link.addEventListener("click", function (event) {
+      event.preventDefault(); // Prevent default anchor click behavior
+      const targetId = this.getAttribute("href").substring(1); // Get target section id
+      const targetSection = document.getElementById(targetId);
+
+      if (targetSection) {
+        // Scroll to the target section smoothly
+        window.scrollTo({
+          top: targetSection.offsetTop - 50, // Adjust -50 if you have a fixed header
+          behavior: "smooth",
+        });
+      }
+
+      // Close the navigation menu after click (for mobile)
       navMenu.classList.remove("show");
       icon.classList.remove("fa-times");
       icon.classList.add("fa-bars");
