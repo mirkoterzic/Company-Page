@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (targetSection) {
         // Scroll to the target section smoothly
         window.scrollTo({
-          top: targetSection.offsetTop - 50, // Adjust -50 if you have a fixed header
+          top: targetSection.offsetTop - 96, // Adjust -50 if you have a fixed header
           behavior: "smooth",
         });
       }
