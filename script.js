@@ -64,8 +64,19 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   const hamburger = document.getElementById("hamburger");
   const navMenu = document.querySelector(".nav");
+  const icon = hamburger.querySelector("i");
+  const navLinks = navMenu.querySelectorAll("a");
 
   hamburger.addEventListener("click", function () {
     navMenu.classList.toggle("show");
+    icon.classList.toggle("fa-bars");
+    icon.classList.toggle("fa-times");
+  });
+  navLinks.forEach((link) => {
+    link.addEventListener("click", function () {
+      navMenu.classList.remove("show");
+      icon.classList.remove("fa-times");
+      icon.classList.add("fa-bars");
+    });
   });
 });

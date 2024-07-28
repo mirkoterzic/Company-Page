@@ -88,7 +88,6 @@
   object-fit: contain; /* Maintain aspect ratio with black bars */
 }
 
-
 .about-container {
   display: flex;
   flex-direction: column;
