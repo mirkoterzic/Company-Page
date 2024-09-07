@@ -1,28 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @font-face {
-  font-family: "LEMONMILK"; /* Font family name */
-  src: url("/assets/fonts/lemon_milk/LEMONMILK-Bold.otf") format("opentype"); /* Path to bold font */
+  font-family: "LEMONMILK";
+  src: url("https://raw.githubusercontent.com/mirkoterzic/Company-Page/main/assets/fonts/lemon_milk/LEMONMILK-Bold.otf") format("opentype");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "LEMONMILK";
-  src: url("//assets/fonts/lemon_milk/LEMONMILK-BoldItalic.otf")
-    format("opentype"); /* Path to italic font */
+  src: url("https://raw.githubusercontent.com/mirkoterzic/Company-Page/main/assets/fonts/lemon_milk/LEMONMILK-BoldItalic.otf") format("opentype");
   font-style: italic;
 }
 
 @font-face {
   font-family: "LEMONMILK";
-  src: url("/assets/fonts/lemon_milk/LEMONMILK-Regular.otf") format("opentype"); /* Path to regular font */
+  src: url("https://raw.githubusercontent.com/mirkoterzic/Company-Page/main/assets/fonts/lemon_milk/LEMONMILK-Regular.otf") format("opentype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "LEMONMILK";
-  src: url("/assets/fonts/lemon_milk/LEMONMILK-Medium.otf") format("opentype"); /* Path to medium font */
-  font-weight: 500; /* Custom font weight for medium */
+  src: url("https://raw.githubusercontent.com/mirkoterzic/Company-Page/main/assets/fonts/lemon_milk/LEMONMILK-Medium.otf") format("opentype");
+  font-weight: 500;
 }
+
 
 :root {
   /* Primary colors */
