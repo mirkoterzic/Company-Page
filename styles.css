@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: "LEMONMILK";
-  src: url("https://mirkoterzic.github.io/Company-Page/assets/fonts/lemon_milk/LEMONMILK-Medium.otf") format("opentype");
+  src: url("./Company-Page/assets/fonts/lemon_milk/LEMONMILK-Medium.otf") format("opentype");
   font-weight: 500;
 }
 
